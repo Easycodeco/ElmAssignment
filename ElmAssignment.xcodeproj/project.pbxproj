@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC641B5C273D1BEB00FB268B /* ServiceData in Frameworks */ = {isa = PBXBuildFile; productRef = CC641B5B273D1BEB00FB268B /* ServiceData */; };
 		CC6A5B4C273AD33000848D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B4B273AD33000848D29 /* AppDelegate.swift */; };
 		CC6A5B4E273AD33000848D29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B4D273AD33000848D29 /* SceneDelegate.swift */; };
-		CC6A5B50273AD33000848D29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B4F273AD33000848D29 /* ViewController.swift */; };
 		CC6A5B53273AD33000848D29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5B51273AD33000848D29 /* Main.storyboard */; };
 		CC6A5B55273AD33200848D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5B54273AD33200848D29 /* Assets.xcassets */; };
 		CC6A5B58273AD33200848D29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5B56273AD33200848D29 /* LaunchScreen.storyboard */; };
 		CC6A5B63273AD33200848D29 /* ElmAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B62273AD33200848D29 /* ElmAssignmentTests.swift */; };
 		CC6A5B6D273AD33200848D29 /* ElmAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B6C273AD33200848D29 /* ElmAssignmentUITests.swift */; };
 		CC6A5B6F273AD33200848D29 /* ElmAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B6E273AD33200848D29 /* ElmAssignmentUITestsLaunchTests.swift */; };
+		CC6A5B7C273ADBD500848D29 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B7B273ADBD500848D29 /* SecondVC.swift */; };
+		CC6A5B87273B8C4600848D29 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B86273B8C4600848D29 /* FirstVC.swift */; };
+		CC6A5B89273B8FDD00848D29 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B88273B8FDD00848D29 /* User.swift */; };
+		CC6A5B8B273BE4B600848D29 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B8A273BE4B600848D29 /* UserCell.swift */; };
+		CC6A5B8E273C366900848D29 /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B8D273C366900848D29 /* UIImageViewExt.swift */; };
+		CC6A5B90273C414C00848D29 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5B8F273C414C00848D29 /* UserVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,6 @@
 		CC6A5B48273AD33000848D29 /* ElmAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElmAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6A5B4B273AD33000848D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC6A5B4D273AD33000848D29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC6A5B4F273AD33000848D29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC6A5B52273AD33000848D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC6A5B54273AD33200848D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC6A5B57273AD33200848D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,12 @@
 		CC6A5B68273AD33200848D29 /* ElmAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElmAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6A5B6C273AD33200848D29 /* ElmAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElmAssignmentUITests.swift; sourceTree = "<group>"; };
 		CC6A5B6E273AD33200848D29 /* ElmAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElmAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC6A5B7B273ADBD500848D29 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		CC6A5B86273B8C4600848D29 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		CC6A5B88273B8FDD00848D29 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CC6A5B8A273BE4B600848D29 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		CC6A5B8D273C366900848D29 /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		CC6A5B8F273C414C00848D29 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC641B5C273D1BEB00FB268B /* ServiceData in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +95,7 @@
 				CC6A5B61273AD33200848D29 /* ElmAssignmentTests */,
 				CC6A5B6B273AD33200848D29 /* ElmAssignmentUITests */,
 				CC6A5B49273AD33000848D29 /* Products */,
+				CC6A5B92273C501500848D29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +112,16 @@
 		CC6A5B4A273AD33000848D29 /* ElmAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				CC6A5B4B273AD33000848D29 /* AppDelegate.swift */,
+				CC6A5B80273B7A6C00848D29 /* Controllers */,
+				CC6A5B7D273B790900848D29 /* ViewModels */,
+				CC6A5B82273B7BB200848D29 /* View */,
+				CC6A5B81273B7BA400848D29 /* Model */,
+				CC6A5B8C273C35FC00848D29 /* Extensions */,
 				CC6A5B4D273AD33000848D29 /* SceneDelegate.swift */,
-				CC6A5B4F273AD33000848D29 /* ViewController.swift */,
+				CC6A5B4B273AD33000848D29 /* AppDelegate.swift */,
 				CC6A5B51273AD33000848D29 /* Main.storyboard */,
-				CC6A5B54273AD33200848D29 /* Assets.xcassets */,
 				CC6A5B56273AD33200848D29 /* LaunchScreen.storyboard */,
+				CC6A5B54273AD33200848D29 /* Assets.xcassets */,
 				CC6A5B59273AD33200848D29 /* Info.plist */,
 			);
 			path = ElmAssignment;
@@ -127,6 +144,54 @@
 			path = ElmAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		CC6A5B7D273B790900848D29 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A5B8F273C414C00848D29 /* UserVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CC6A5B80273B7A6C00848D29 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A5B86273B8C4600848D29 /* FirstVC.swift */,
+				CC6A5B7B273ADBD500848D29 /* SecondVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC6A5B81273B7BA400848D29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A5B88273B8FDD00848D29 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC6A5B82273B7BB200848D29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A5B8A273BE4B600848D29 /* UserCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC6A5B8C273C35FC00848D29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A5B8D273C366900848D29 /* UIImageViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CC6A5B92273C501500848D29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +208,9 @@
 			dependencies = (
 			);
 			name = ElmAssignment;
+			packageProductDependencies = (
+				CC641B5B273D1BEB00FB268B /* ServiceData */,
+			);
 			productName = ElmAssignment;
 			productReference = CC6A5B48273AD33000848D29 /* ElmAssignment.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +283,9 @@
 				Base,
 			);
 			mainGroup = CC6A5B3F273AD33000848D29;
+			packageReferences = (
+				CC641B5A273D1BEB00FB268B /* XCRemoteSwiftPackageReference "ServiceData" */,
+			);
 			productRefGroup = CC6A5B49273AD33000848D29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +329,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC6A5B50273AD33000848D29 /* ViewController.swift in Sources */,
+				CC6A5B87273B8C4600848D29 /* FirstVC.swift in Sources */,
 				CC6A5B4C273AD33000848D29 /* AppDelegate.swift in Sources */,
+				CC6A5B89273B8FDD00848D29 /* User.swift in Sources */,
+				CC6A5B8B273BE4B600848D29 /* UserCell.swift in Sources */,
+				CC6A5B8E273C366900848D29 /* UIImageViewExt.swift in Sources */,
+				CC6A5B7C273ADBD500848D29 /* SecondVC.swift in Sources */,
 				CC6A5B4E273AD33000848D29 /* SceneDelegate.swift in Sources */,
+				CC6A5B90273C414C00848D29 /* UserVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +523,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +552,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -624,6 +702,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC641B5A273D1BEB00FB268B /* XCRemoteSwiftPackageReference "ServiceData" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Easycodeco/ServiceData";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC641B5B273D1BEB00FB268B /* ServiceData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC641B5A273D1BEB00FB268B /* XCRemoteSwiftPackageReference "ServiceData" */;
+			productName = ServiceData;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CC6A5B40273AD33000848D29 /* Project object */;
 }
